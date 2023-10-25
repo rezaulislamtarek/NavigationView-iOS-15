@@ -11,7 +11,9 @@ import SwiftUI
 struct NavigationView_iOS_15App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView{
+                ScreenOne()
+            }
         }
     }
 }
